@@ -51,10 +51,14 @@ Application Java console pour gérer les séances et réservations d'un cinéma 
 
 ```
 TP_Cinema/
-├── CinemaApp.java         # Classe principale avec le menu
-├── DatabaseManager.java   # Gestion des connexions DB
-├── Seance.java           # Modèle des séances
-└── Reservation.java      # Modèle des réservations
+├── DatabaseManager.java     # Gestion des connexions DB   
+├── Main.java                # Classe principale avec le menu
+├── Reservation.java         # Modèle des réservations
+├── ReservationDAO.java      # Interface DAO des résevations
+├── ReservationDAOImpl.java  # Implémentation DAO des résevations
+├── Seance.java              # Modèle des séances
+├── SeanceDAO.java           # Interface DAO des séances
+└── SeanceDAOImpl.java       # Implémentation DAO des séances
 ```
 
 ## ▶️ Exécution
